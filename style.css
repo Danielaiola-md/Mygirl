@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;  
+    background-color: black;
+
+}
+#button{
+   font-size: 18px;
+    border: 1px;
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: rgba(255, 101, 101, 0.938);
+    box-shadow: 2px 2px 20px rgb(153, 149, 149);
+}
+
+#button:active{
+    box-shadow: 2px 2px 15px rgb(153, 149, 149);;
+    width: 195px;
+    height: 95px;
+}
+.box{
+    border: 2px dashed aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 30px;
+    align-items: center;
+   
+}
+.item1 video{
+    margin-left: 30px;
+}
+.item2 video {
+    margin-left: 20px;
+}
+#content{
+    position: absolute;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    background-color: rgb(56, 56, 56);
+    margin-top: 30px;
+    padding: 10px;
+    width: 300px;
+    height: 570px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border-radius: 30px;
+    visibility: hidden;
+
+}
+#btn{
+    border: 0.5px solid;
+    background-color: red;
+    width: 60px;
+}
+#btn:active{
+    opacity: 0.4;
+}
